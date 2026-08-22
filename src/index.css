@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #14151C;
+  --color-bg-base-deep: #0F1015;
+  --color-accent-primary: #5865F2;
+  --color-accent-glow: #8B7FF5;
+  --color-success: #57F287;
+  --color-danger: #ED4245;
+  --color-warm-gold: #FFC876;
+  --color-warm-pink: #FF8FB1;
+  --color-scrapbook-cream: #F3E9D8;
+  --color-scrapbook-brown: #8B5E3C;
+  --color-reveal-black: #08090C;
+  --color-text-primary: #EDEDF2;
+  --color-text-muted: #9A9AA8;
+
+  --font-display: "Baloo 2", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-script: "Caveat", cursive;
+  --font-emotional: "Fraunces", serif;
+
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.75rem;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0F1015;
+}
+::-webkit-scrollbar-thumb {
+  background: #2B2D31;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5865F2;
+}
+
+/* Shared Glow Utility Classes */
+.glow-primary {
+  box-shadow: 0 0 24px rgba(88, 101, 242, 0.45);
+}
+
+.glow-success {
+  box-shadow: 0 0 24px rgba(87, 242, 135, 0.45);
+}
+
+.glow-danger {
+  box-shadow: 0 0 24px rgba(237, 66, 69, 0.45);
+}
+
+/* Glass Panel Surface */
+.glass-panel {
+  background: rgba(20, 21, 28, 0.82) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Grain Overlay Layer */
+.grain-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+}
+
+/* Film Grain for Scrapbook */
+.film-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.08'/%3E%3C/svg%3E");
+}
+
+/* Washi Tape Accent */
+.washi-tape {
+  background: rgba(255, 200, 118, 0.7);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(2px);
+}
