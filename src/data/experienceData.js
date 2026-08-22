@@ -1,6 +1,6 @@
 export default {
   name: "Meet",
-  nicknames: ["The Menace", "Captain Late", "Chief Snack Officer", "The Clutch God"],
+  nicknames: ["MK", "The Menace", "Captain Late", "The Clutch God"],
   otp: "246810",
   vaultFileCount: 37,
   threatLevel: 78,
@@ -52,17 +52,17 @@ export default {
       type: "identify-faces",
       media: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=80",
       options: [
-        { x: 32, y: 38, name: "Sam" },
-        { x: 68, y: 44, name: "Priya" },
+        { x: 32, y: 38, name: "Roy Avi" },
+        { x: 68, y: 44, name: "Aaru" },
       ],
       story: "This was right after the tournament win. Absolute core memory!",
     },
     {
       type: "guess-audio",
       media: "/audio/clip1.mp3",
-      options: ["Sam", "Priya", "Jordan", "Meet"],
-      answer: "Jordan",
-      story: "Nobody has let Jordan live this down since.",
+      options: ["Roy Avi", "Aaru", "4JJU", "Meet"],
+      answer: "4JJU",
+      story: "Nobody has let 4JJU live this down since.",
     },
   ],
   loveTestItems: [
@@ -70,49 +70,40 @@ export default {
     { label: "Laughs together", delta: 2391 },
     { label: "Arguments", delta: 127 },
     { label: "Food stolen", delta: -42 },
-    { label: "Times you annoyed us", delta: -9001 },
+    { label: "Times you disappeared", delta: -9001 },
     { label: "Good memories", delta: 999999 },
   ],
   teamMessages: [
     {
-      name: "Sam",
-      photo: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&q=80",
-      message: "Bro, honestly you're one of the best people I've met here. Also give me back my charger.",
-      tone: "funny"
-    },
-    {
-      name: "Priya",
-      photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
-      message: "Happy birthday Meet! You bring so much energy to our calls and make every chaotic day 10x better. Don't ever change!",
+      name: "Roy Avi",
+      message: "Happy Birthday bro. Many many happy returns of the day! 🎂",
       tone: "sincere"
     },
     {
-      name: "Jordan",
-      photo: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=300&q=80",
-      message: "From late-night discord gaming sessions to shipping random projects together, wouldn't trade this squad for anything. Drinks on us! 🍻",
-      tone: "nostalgic"
+      name: "Aaru",
+      message: "Happy birthday bhai... Enjoy kr mst joh bhi kr rha hai or server pe thoda active reh ke kaam pe dhyan de le bhai... Hp bogot tarif krta hai teri 😭🫶✨",
+      tone: "funny"
     },
     {
-      name: "Maya",
-      photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
-      message: "Happy Birthday! Wishing you another year of legendary wins, zero lag, and endless laughs!",
+      name: "4JJU",
+      message: "Happy birthday yaar @M K server mai suhag- mera matlab pehle raat- nahi mera matlab chaand jaise ho tum, kabhi kabhi dikte ho, roz aaya karo, Hope you both have a good blast 🎉🥳",
       tone: "funny"
     }
   ],
   team: [
-    { name: "Sam", photo: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&q=80" },
-    { name: "Priya", photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" },
-    { name: "Jordan", photo: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=300&q=80" },
-    { name: "Maya", photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80" },
-    { name: "Dev", photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" },
-    { name: "Rohan", photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" }
+    { name: "Roy Avi" },
+    { name: "Aaru" },
+    { name: "4JJU" },
+    { name: "Ninju" },
+    { name: "Naitik" },
+    { name: "OneHp" }
   ],
   finalMessage: [
     "All jokes aside…",
-    "We're genuinely lucky to have you.",
+    "We're genuinely lucky to have you, MK.",
     "You've given us a lot of memories.",
     "A lot of laughs.",
-    "A lot of reasons to meet up.",
+    "A lot of reasons to hop on the server.",
     "And we're really glad you're part of our team.",
   ],
 };

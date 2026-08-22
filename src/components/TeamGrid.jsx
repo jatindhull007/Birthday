@@ -4,6 +4,7 @@ import { RotateCcw, LogOut, Heart } from 'lucide-react';
 import { TIMING } from '../lib/motion';
 import { stopAll, playSfx } from '../lib/audio';
 import { fireConfetti } from './ConfettiBurst';
+import Avatar from './Avatar';
 
 export default function TeamGrid({ team, teamMessages, name, onReplay }) {
   const [showExitInter, setShowExitInter] = useState(false);
@@ -80,8 +81,8 @@ export default function TeamGrid({ team, teamMessages, name, onReplay }) {
         </motion.div>
       )}
 
-      {/* Responsive Team Photo Grid with Staggered Scale-in */}
-      <div className={`grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-8 max-w-2xl mx-auto items-center transition-opacity duration-700 ${isFinalEndState ? 'opacity-20 pointer-events-none' : 'opacity-100'}`}>
+      {/* Responsive Team Avatar Grid with Staggered Scale-in */}
+      <div className={`grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 max-w-2xl mx-auto items-center justify-center transition-opacity duration-700 ${isFinalEndState ? 'opacity-20 pointer-events-none' : 'opacity-100'}`}>
         {itemsWithCenterCake.map((member, idx) => {
           if (member.isCake) {
             return (
@@ -111,16 +112,12 @@ export default function TeamGrid({ team, teamMessages, name, onReplay }) {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.08 * idx, duration: TIMING.panel }}
-              className="flex flex-col items-center text-center space-y-2 group"
+              className="flex flex-col items-center text-center space-y-2 group cursor-pointer"
             >
-              <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-2 border-white/20 group-hover:border-accent-primary transition-all duration-300 shadow-xl">
-                <img
-                  src={member.photo}
-                  alt={member.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+              <div className="group-hover:scale-108 transition-transform duration-300">
+                <Avatar name={member.name} className="w-20 h-20 sm:w-24 sm:h-24" />
               </div>
-              <span className="font-display font-bold text-sm sm:text-base text-text-primary">
+              <span className="font-display font-bold text-sm sm:text-base text-text-primary group-hover:text-accent-glow transition-colors">
                 {member.name}
               </span>
             </motion.div>
@@ -131,7 +128,7 @@ export default function TeamGrid({ team, teamMessages, name, onReplay }) {
       {/* Caption Below Grid */}
       <div className={`text-center transition-opacity duration-700 ${isFinalEndState ? 'opacity-20' : 'opacity-100'}`}>
         <p className="font-display uppercase tracking-widest text-xs sm:text-sm text-text-muted font-bold">
-          — YOUR TEAM —
+          — YOUR SQUAD —
         </p>
       </div>
 

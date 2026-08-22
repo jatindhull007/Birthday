@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, MessageSquareQuote } from 'lucide-react';
 import { TIMING } from '../lib/motion';
+import Avatar from './Avatar';
 
 export default function TeamMessageCard({ messageData, index, total, onNext, isLast }) {
   return (
@@ -12,21 +13,17 @@ export default function TeamMessageCard({ messageData, index, total, onNext, isL
       transition={{ duration: TIMING.panel }}
       className="w-full max-w-lg mx-auto glass-panel p-7 sm:p-10 rounded-3xl relative shadow-2xl space-y-6 border border-white/10"
     >
-      {/* Header with Circular Photo, Name & Counter */}
+      {/* Header with Boy Avatar, Name & Counter */}
       <div className="flex items-center justify-between pb-5 border-b border-white/10">
         <div className="flex items-center gap-4">
           <div className="relative">
-            <img
-              src={messageData.photo}
-              alt={messageData.name}
-              className="w-15 h-15 rounded-full object-cover border-2 border-accent-primary shadow-xl"
-            />
+            <Avatar name={messageData.name} className="w-16 h-16" />
             <div className="absolute -bottom-1 -right-1 p-1 rounded-full bg-bg-base-deep text-accent-glow border border-white/10 shadow">
-              <MessageSquareQuote className="w-4 h-4" />
+              <MessageSquareQuote className="w-3.5 h-3.5" />
             </div>
           </div>
           <div>
-            <h4 className="font-display font-bold text-xl text-text-primary">
+            <h4 className="font-display font-bold text-xl sm:text-2xl text-text-primary">
               {messageData.name}
             </h4>
             <span className="text-xs sm:text-sm text-text-muted font-body font-semibold">
