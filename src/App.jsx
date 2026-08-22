@@ -6,7 +6,6 @@ import { actTransitionVariant } from './lib/motion';
 
 import AmbientBackground from './components/AmbientBackground';
 import ProgressRail from './components/ProgressRail';
-import MuteToggle from './components/MuteToggle';
 
 import Landing from './steps/Landing';
 import OTP from './steps/OTP';
@@ -47,9 +46,6 @@ function StepRouter() {
 
       {/* Global Progress Rail */}
       <ProgressRail />
-
-      {/* Global Persistent Mute Toggle */}
-      <MuteToggle />
 
       {/* Main Step Transition Shell */}
       <main className="relative z-10 w-full min-h-screen flex items-center justify-center">

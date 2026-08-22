@@ -1,5 +1,5 @@
 export default {
-  name: "Alex",
+  name: "Meet",
   nicknames: ["The Menace", "Captain Late", "Chief Snack Officer", "The Clutch God"],
   otp: "246810",
   vaultFileCount: 37,
@@ -12,13 +12,13 @@ export default {
   ],
   quiz: [
     {
-      question: "What is Alex's most used phrase?",
+      question: "What is Meet's most used phrase?",
       options: ["Bro trust me.", "I'm coming.", "One last game.", "I'll do it tomorrow."],
       correctIndex: 1,
       reaction: "We knew you'd know that 😭",
     },
     {
-      question: "When things go wrong in a game match, Alex usually:",
+      question: "When things go wrong in a game match, Meet usually:",
       options: [
         "Calmly analyzes the tactical mistake",
         "Blames their ping/lag while having 12ms",
@@ -26,14 +26,14 @@ export default {
         "Alt+F4s and pretends their PC crashed"
       ],
       correctIndex: 1,
-      reaction: "Classic Alex behavior. 100% true! 😂",
+      reaction: "Classic Meet behavior. 100% true! 😂",
     },
     {
-      question: "What is the team's official policy on sharing snacks with Alex?",
+      question: "What is the team's official policy on sharing snacks with Meet?",
       options: [
         "Freely share everything",
         "Hide all chips within a 5-mile radius",
-        "Always buy two portions because Alex's tax is mandatory",
+        "Always buy two portions because Meet's tax is mandatory",
         "Both B and C are constitutionally binding"
       ],
       correctIndex: 3,
@@ -60,7 +60,7 @@ export default {
     {
       type: "guess-audio",
       media: "/audio/clip1.mp3",
-      options: ["Sam", "Priya", "Jordan", "Alex"],
+      options: ["Sam", "Priya", "Jordan", "Meet"],
       answer: "Jordan",
       story: "Nobody has let Jordan live this down since.",
     },
@@ -83,7 +83,7 @@ export default {
     {
       name: "Priya",
       photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
-      message: "Happy birthday Alex! You bring so much energy to our calls and make every chaotic day 10x better. Don't ever change!",
+      message: "Happy birthday Meet! You bring so much energy to our calls and make every chaotic day 10x better. Don't ever change!",
       tone: "sincere"
     },
     {
