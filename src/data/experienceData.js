@@ -1,43 +1,43 @@
 export default {
-  name: "Meet",
-  nicknames: ["MK", "The Menace", "Captain Late", "The Clutch God"],
+  name: "AJJU",
+  nicknames: ["4JJU"],
   otp: "246810",
   vaultFileCount: 37,
   threatLevel: 78,
   offences: [
-    "Being unnecessarily dramatic in voice chat",
-    "Taking 47 photos just to choose one",
-    "Saying '5 minutes' and disappearing for 2 hours",
-    "Stealing everyone's food without remorse",
+    "Looking gay without even trying — it's a whole aesthetic at this point",
+    "Being a bacha but acting like he runs the squad",
+    "Getting babied by the whole server and pretending he doesn't love it",
+    "Looking too innocent to be trusted — sus at all times",
   ],
   quiz: [
     {
-      question: "What is Meet's most used phrase?",
-      options: ["Bro trust me.", "I'm coming.", "One last game.", "I'll do it tomorrow."],
+      question: "What is AJJU's most used phrase?",
+      options: ["Bro sun na.", "Ek game aur.", "Main aa rha hoon.", "Abhi karta hoon."],
       correctIndex: 1,
       reaction: "We knew you'd know that 😭",
     },
     {
-      question: "When things go wrong in a game match, Meet usually:",
+      question: "When things go wrong in a game match, AJJU usually:",
       options: [
         "Calmly analyzes the tactical mistake",
-        "Blames their ping/lag while having 12ms",
-        "Silently buys another weapon",
-        "Alt+F4s and pretends their PC crashed"
+        "Drops a hilarious one-liner and everyone forgets they lost",
+        "Silently clutches the next round",
+        "Starts singing random Bollywood songs"
       ],
       correctIndex: 1,
-      reaction: "Classic Meet behavior. 100% true! 😂",
+      reaction: "Classic AJJU behavior. 100% true! 😂",
     },
     {
-      question: "What is the team's official policy on sharing snacks with Meet?",
+      question: "What happens when AJJU joins the voice chat?",
       options: [
-        "Freely share everything",
-        "Hide all chips within a 5-mile radius",
-        "Always buy two portions because Meet's tax is mandatory",
-        "Both B and C are constitutionally binding"
+        "Everyone goes quiet",
+        "The vibe instantly goes up by 200%",
+        "Someone starts recording for the highlights",
+        "Both B and C — it's a whole event"
       ],
       correctIndex: 3,
-      reaction: "Exactly! The snack tax is non-negotiable. 🍕",
+      reaction: "Exactly! AJJU = instant content. 🎉",
     }
   ],
   memories: [
@@ -60,17 +60,17 @@ export default {
     {
       type: "guess-audio",
       media: "/audio/clip1.mp3",
-      options: ["Roy Avi", "Aaru", "4JJU", "Meet"],
-      answer: "4JJU",
-      story: "Nobody has let 4JJU live this down since.",
+      options: ["Roy Avi", "Aaru", "Meet", "AJJU"],
+      answer: "AJJU",
+      story: "Nobody has let AJJU live this down since.",
     },
   ],
   loveTestItems: [
     { label: "Memes shared", delta: 847 },
     { label: "Laughs together", delta: 2391 },
     { label: "Arguments", delta: 127 },
-    { label: "Food stolen", delta: -42 },
-    { label: "Times you disappeared", delta: -9001 },
+    { label: "Legendary one-liners dropped", delta: 1337 },
+    { label: "Times you made us wheeze", delta: 9001 },
     { label: "Good memories", delta: 999999 },
   ],
   teamMessages: [
@@ -81,26 +81,26 @@ export default {
     },
     {
       name: "Aaru",
-      message: "Happy birthday bhai... Enjoy kr mst joh bhi kr rha hai or server pe thoda active reh ke kaam pe dhyan de le bhai... Hp bogot tarif krta hai teri 😭🫶✨",
+      message: "Happy birthday bhai... Enjoy kr mst joh bhi kr rha hai or server pe thoda active reh ke kaam pe dhyan de le bhai... 😭🫶✨",
       tone: "funny"
     },
     {
-      name: "4JJU",
-      message: "Happy birthday yaar @M K server mai suhag- mera matlab pehle raat- nahi mera matlab chaand jaise ho tum, kabhi kabhi dikte ho, roz aaya karo, Hope you both have a good blast 🎉🥳",
+      name: "Meet",
+      message: "Happy Birthday AJJU! Tu hai toh vibe hai. Server pe tera hona matlab full entertainment guaranteed. Keep being the legend you are! 🎉🥳",
       tone: "funny"
     }
   ],
   team: [
     { name: "Roy Avi" },
     { name: "Aaru" },
-    { name: "4JJU" },
+    { name: "Meet" },
     { name: "Ninju" },
     { name: "Naitik" },
     { name: "OneHp" }
   ],
   finalMessage: [
     "All jokes aside…",
-    "We're genuinely lucky to have you, MK.",
+    "We're genuinely lucky to have you, AJJU.",
     "You've given us a lot of memories.",
     "A lot of laughs.",
     "A lot of reasons to hop on the server.",

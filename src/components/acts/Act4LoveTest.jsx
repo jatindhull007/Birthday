@@ -75,7 +75,7 @@ export default function Act4LoveTest({ config, onNext }) {
           </div>
 
           <h2 className="text-xl sm:text-2xl font-bold text-white mb-6">
-            QUANTIFYING MK'S IMPACT ON THE SQUAD:
+            QUANTIFYING AJJU'S IMPACT ON THE SQUAD:
           </h2>
 
           {/* STREAM OF CALCULATED SCORE ITEMS */}
